@@ -1,0 +1,150 @@
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8fdf9;
+  color: #1f2f3f;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #3c5c7c;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #b1d6bb;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* Tipografías */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* Contenedores */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(60, 92, 124, 0.1);
+}
+
+/* Clases */
+.caja {
+  background-color: #eef3f5;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid #3c5c7c;
+  border-radius: 8px;
+}
+
+/* Imágenes */
+img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Galería */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Formulario */
+#contacto {
+  background-color: #eef3f5;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+#contacto label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#contacto input,
+#contacto textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d0dbe2;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #3c5c7c;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #2b445d;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #3c5c7c;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* Multimedia */
+video, audio, iframe {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+/* Listas */
+ul, ol {
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
